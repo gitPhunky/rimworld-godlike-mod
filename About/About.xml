@@ -7,6 +7,8 @@
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<packageId>Phunky.GodLikeTrait</packageId>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=1670479679</url>
@@ -15,17 +17,42 @@
 This is very much a cheat mod, as a pawn with this trait can do everything a regular pawn can almost instantly.
 
 Godlike Trait:
-- 20 of all Stats.
-- aims 500% faster.
-- shooting accuracy increased by 200%.
-- melee accuracy increased by 100%.
-- work speed increased by 500%
-- 100% increased learning rate.
-- 200% increased immunity gain rate.
-- 100% decreased chance of mental break.
-- moves 5x as faster than a base pawn.
-- tame and train animal chance increased by 100%.
-- increased carrying capacity to 200
+- Animals: +20
+- Artistic: +20
+- Construction: +20
+- Cooking: +20
+- Crafting: +20
+- Plants: +20
+- Intellectual: +20
+- Medical: +20
+- Melee: +20
+- Mining: +20
+- Shooting: +20
+- Social: +20
+- Permanent mood effect +120
+- Global learning factor +500%
+- Melee hit chance +20.0
+- Melee dodge chance +20.0
+- Pain shock threshold +2000%
+- Move speed +5.00
+- Mental break threshold -150%
+- Global work speed +500%
+- Aiming time -1000%
+- Shooting accuracy +20.0
+- Immunity gain speed +500%
+- Toxic resistance +500%
+- Toxic environment resistance +500%
+- Research speed +500%
+- Social impact +500.00%
+- Tame animal chance +500.00%
+- Train animal chance +500.00%
+- Carrying capacity +200
+- Min comfortable temperature -90.0F
+- Max comfortable temperature +90.0F
+- Incoming damage multiplier x10%
+- Recreation fall rate x10%
+- Sleep fall rate x10%
+- Hunger rate x10%
 
 Feel free to send me suggestions/bug reports on discord at Phunky#0001 
 or on the github repo at https://github.com/Phnky/rimworld-godlike-mod

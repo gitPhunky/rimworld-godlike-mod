@@ -8,76 +8,48 @@
                 <label>Godlike</label>
                 <description>[PAWN_nameDef]'s abilities resemble that of a god.</description>
                 <statOffsets>
-                    <GlobalLearningFactor>1</GlobalLearningFactor>
-                    <HungerRateMultiplier>-0.50</HungerRateMultiplier>
-                    <MeleeHitChance>1</MeleeHitChance>
+                    <GlobalLearningFactor>5</GlobalLearningFactor>
+                    <MeleeHitChance>20</MeleeHitChance>
                     <MeleeDodgeChance>20</MeleeDodgeChance>
                     <PainShockThreshold>20</PainShockThreshold>
                     <MoveSpeed>5</MoveSpeed>
-                    <MentalBreakThreshold>-1</MentalBreakThreshold>
+                    <MentalBreakThreshold>-1.5</MentalBreakThreshold>
                     <WorkSpeedGlobal>5</WorkSpeedGlobal> <!-- A lot of other statOffsets probably fall under this tag -->
                     <!-- <PsychicSensitivity>-1</PsychicSensitivity> removed to allow psylink powers-->
-                    <AimingDelayFactor>-5</AimingDelayFactor>
-                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-                    <!-- <MarketValueFactorOffset>1</MarketValueFactorOffset>  Pawn beauty //for some reason throws errors-->
-                    <ImmunityGainSpeed>1</ImmunityGainSpeed>
-                    <ToxicSensitivity>-1</ToxicSensitivity>
-                    <ResearchSpeed>1</ResearchSpeed>
-                    <SocialImpact>1</SocialImpact>
-                    <TameAnimalChance>1</TameAnimalChance>
-				    <TrainAnimalChance>1</TrainAnimalChance>
+                    <AimingDelayFactor>-10</AimingDelayFactor>
+                    <ShootingAccuracyPawn>20</ShootingAccuracyPawn>
+                    <ImmunityGainSpeed>5</ImmunityGainSpeed>
+                    <ToxicResistance>5</ToxicResistance>
+                    <ToxicEnvironmentResistance>5</ToxicEnvironmentResistance>
+                    <ResearchSpeed>5</ResearchSpeed>
+                    <SocialImpact>5</SocialImpact>
+                    <TameAnimalChance>5</TameAnimalChance>
+				    <TrainAnimalChance>5</TrainAnimalChance>
                     <CarryingCapacity>200</CarryingCapacity>
+                    <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+                    <ComfyTemperatureMax>50</ComfyTemperatureMax>
                 </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.1</IncomingDamageFactor>
+                    <JoyFallRateFactor>0.1</JoyFallRateFactor>
+                    <RestFallRateFactor>0.1</RestFallRateFactor>
+                </statFactors>
                 <skillGains>
-                  <li>
-                      <key>Animals</key>
-                      <value>20</value>
-                  </li>
-                    <li>
-                        <key>Artistic</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Construction</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Cooking</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Crafting</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Plants</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Intellectual</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Medicine</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Melee</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                      <key>Mining</key>
-                      <value>20</value>
-                    </li>
-                    <li>
-                        <key>Shooting</key>
-                        <value>20</value>
-                    </li>
-                    <li>
-                        <key>Social</key>
-                        <value>20</value>
-                    </li>
+                    <!-- Changed out the li/(key|value) for this - slightly more readable and concise -->
+                    <Animals>20</Animals>
+                    <Artistic>20</Artistic>
+                    <Construction>20</Construction>
+                    <Cooking>20</Cooking>
+                    <Crafting>20</Crafting>
+                    <Plants>20</Plants>
+                    <Intellectual>20</Intellectual>
+                    <Medicine>20</Medicine>
+                    <Melee>20</Melee>
+                    <Mining>20</Mining>
+                    <Shooting>20</Shooting>
+                    <Social>20</Social>
                 </skillGains>
+                <hungerRateFactor>0.1</hungerRateFactor>
             </li>
         </degreeDatas>
     </TraitDef>

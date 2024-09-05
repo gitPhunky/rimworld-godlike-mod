@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MoodOffsetGodlike</defName>
+    <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredTraits>
+      <li>Godlike</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>godlike</label>
+        <description>Supernatural mood bonus.</description>
+        <baseMoodEffect>120</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
